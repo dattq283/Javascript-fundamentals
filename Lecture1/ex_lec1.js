@@ -14,11 +14,8 @@ console.log(triangle(5, 6, 7));
 function reverseNumber(x) 
 {
     if(typeof(x) !== 'number') return 'Invalid input!';
-<<<<<<< HEAD
     var res = 0;
-=======
     let res = 0;
->>>>>>> lecture1
     while(x > 0)
     {
         res = res*10 + x % 10;
