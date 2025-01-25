@@ -13,9 +13,7 @@ console.log(triangle(5, 6, 7));
 // 2
 function reverseNumber(x) 
 {
-    if(typeof(x) !== 'number') return 'Invalid input!';
     var res = 0;
-    let res = 0;
     while(x > 0)
     {
         res = res*10 + x % 10;
@@ -59,17 +57,17 @@ const arr1 = [
 
 function selectionSort(arr)
 {
-    let n = arr.length;
-    for(let i = 0; i < n-1; i++)
+    var n = arr.length;
+    for(var i = 0; i < n-1; i++)
     {
-        let minIndex = i;
-        for(let j = i + 1; j < n; j++)
+        var minIndex = i;
+        for(var j = i + 1; j < n; j++)
         {
             if(arr[j] < arr[minIndex])
             {
                 minIndex = j;
             }
-            let tmp = arr[i];
+            var tmp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = tmp;
         }
