@@ -24,7 +24,7 @@ function reverseNumber(x)
 }
 console.log(reverseNumber(32243));
 
-// 3
+//  3
 const arr = [-5, -2, -6, 0, -1]
 let largest;
 let n = arr.length;
