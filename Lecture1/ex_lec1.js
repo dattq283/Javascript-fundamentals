@@ -13,7 +13,7 @@ console.log(triangle(5, 6, 7));
 // 2
 function reverseNumber(x) 
 {
-    if(typeof(x) !== 'number') return 'Invalid input!';
+    if(typeof(x) !== 'number') return "Invalid input!";
     var res = 0;
     let res = 0;
     while(x > 0)
