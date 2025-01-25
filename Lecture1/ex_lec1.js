@@ -13,11 +13,8 @@ console.log(triangle(5, 6, 7));
 // 2
 function reverseNumber(x) 
 {
-<<<<<<< HEAD
     if(typeof(x) !== 'number') return 'Invalid input!';
-=======
->>>>>>> 63b1dd9912a87147e2d87c4beec3313ad4021d81
-    var res = 0;
+    let res = 0;
     while(x > 0)
     {
         res = res*10 + x % 10;
@@ -61,17 +58,17 @@ const arr1 = [
 
 function selectionSort(arr)
 {
-    var n = arr.length;
-    for(var i = 0; i < n-1; i++)
+    let n = arr.length;
+    for(let i = 0; i < n-1; i++)
     {
-        var minIndex = i;
-        for(var j = i + 1; j < n; j++)
+        let minIndex = i;
+        for(let j = i + 1; j < n; j++)
         {
             if(arr[j] < arr[minIndex])
             {
                 minIndex = j;
             }
-            var tmp = arr[i];
+            let tmp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = tmp;
         }
@@ -180,8 +177,4 @@ console.log(isWeekend('Nov 17, 2014'));
 //10
 let arr3 = [1, 2, 3, 4, 5, 6];
 const sum = arr3.reduce((sum,num)=>{return sum + num});
-<<<<<<< HEAD
 console.log(sum);
-=======
-console.log(sum);
->>>>>>> 63b1dd9912a87147e2d87c4beec3313ad4021d81
