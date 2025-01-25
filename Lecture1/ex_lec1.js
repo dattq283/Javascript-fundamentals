@@ -13,7 +13,10 @@ console.log(triangle(5, 6, 7));
 // 2
 function reverseNumber(x) 
 {
+<<<<<<< HEAD
     if(typeof(x) !== 'number') return 'Invalid input!';
+=======
+>>>>>>> 63b1dd9912a87147e2d87c4beec3313ad4021d81
     var res = 0;
     while(x > 0)
     {
@@ -177,4 +180,8 @@ console.log(isWeekend('Nov 17, 2014'));
 //10
 let arr3 = [1, 2, 3, 4, 5, 6];
 const sum = arr3.reduce((sum,num)=>{return sum + num});
+<<<<<<< HEAD
 console.log(sum);
+=======
+console.log(sum);
+>>>>>>> 63b1dd9912a87147e2d87c4beec3313ad4021d81
