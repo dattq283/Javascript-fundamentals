@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
       "cwd": "c:/Users/admin/OneDrive/JS/.gitignore/.vscode",
       "program": "c:/Users/admin/OneDrive/JS/.gitignore/.vscode/build/Debug/outDebug",
+=======
+      "cwd": "c:/Users/admin/OneDrive/JS/.vscode",
+      "program": "c:/Users/admin/OneDrive/JS/.vscode/build/Debug/outDebug",
+>>>>>>> d66af8b3395ec4dfb2f1b39e542c66c2d665eba2
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
