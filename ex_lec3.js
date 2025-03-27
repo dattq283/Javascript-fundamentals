@@ -42,7 +42,7 @@
         }
 // 1.4
     //C1
-    function sumExpectFirst(...arr)
+    function sumExceptFirst(...arr)
     {
         let checkSkipped = false;
         return arr.reduce((total, value) => 
@@ -59,16 +59,16 @@
             return total;
         },0 );
     }
-    console.log(sumExpectFirst(...mergeArrays(array1, randomValue, array2)));
+    console.log(sumExceptFirst(...mergeArrays(array1, randomValue, array2)));
 
     //C2
-    function sumExpectFirst2(arr)
+    function sumExceptFirst2(arr)
     {
       return numbersInArray.slice(1).reduce((sum,num) => sum + num, 0);
     }
-    console.log(sumExpectFirst2(mergeArrays2(array1, randomValue, array2)));
+    console.log(sumExceptFirst2(mergeArrays2(array1, randomValue, array2)));
 // 1.5 
-    function sumExpectLast(...arr)
+    function sumExceptLast(...arr)
     {
         let checkSkipped = false;
         const reverseArr = [...arr].reverse();
@@ -86,14 +86,14 @@
             return total;
         },0 );
     }
-    console.log(sumExpectLast(...mergeArrays(array1, randomValue, array2)));
+    console.log(sumExceptLast(...mergeArrays(array1, randomValue, array2)));
 
     //C2
-    function sumExpectLast2(arr)
+    function sumExceptLast2(arr)
     {
       return numbersInArray.slice(0, -1).reduce((sum,num) => sum + num, 0);
     }
-    console.log(sumExpectLast2(mergeArrays2(array1, randomValue, array2)));
+    console.log(sumExceptLast2(mergeArrays2(array1, randomValue, array2)));
 
 // 1.6 
     function sumOfThreeFirstNumbers(...arr)
