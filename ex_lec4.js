@@ -1,8 +1,18 @@
 // 4.1
-const array1 = [NaN, 0, 16, false, -21, '',undefined, 45, null];
-const resultArray = array1.filter(num => Number.isInteger(num));
-console.log(resultArray);
-
+const array1 = [NaN, 0, 16, false, -21, '',undefined, 45, null, '50'];
+  const resultArray = (array) =>
+  {
+      return array.filter(value =>
+        value !== null &&
+        value !== 0 &&
+        value !== "" &&
+        value !== false &&
+        value !== undefined &&
+              !Number.isNaN(value)
+          );
+  };
+  const result = resultArray(array1);
+  console.log(result);
 // 4.2
 function removeArrayElement(array , element)
 {
